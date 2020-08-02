@@ -2,7 +2,7 @@ git status
 git init
 git config --global user.[name, email] = ''
 git status
-git add [. / list file to state]
+git add [. / list file to state]      => git reset <file_name>
 git commit [staged file get saved to git repository] -m ""
 git log
 
@@ -13,3 +13,7 @@ git reomte add origin git@githup.com.aruliSharma/Git-Tutorial.git
 
 =>push => git push -u origin master            [ --set-upstream => It is upstream tracking referance ]
 =>pull => git pull origin master
+
+=>to see difference => git diff <file_name>
+=>after staging to see diff add <this flag> => git diff --staged <file-name>
+=>if a file in staged region we want recovery => git reset <file_name>
