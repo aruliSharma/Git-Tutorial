@@ -17,3 +17,4 @@ git reomte add origin git@githup.com.aruliSharma/Git-Tutorial.git
 =>to see difference => git diff <file_name>
 =>after staging to see diff add <this flag> => git diff --staged <file-name>
 =>if a file in staged region we want recovery => git reset <file_name>
+  => git checkout[./ <file_name>]
