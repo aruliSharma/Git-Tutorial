@@ -18,3 +18,8 @@ git reomte add origin git@githup.com.aruliSharma/Git-Tutorial.git
 =>after staging to see diff add <this flag> => git diff --staged <file-name>
 =>if a file in staged region we want recovery => git reset <file_name>
   => git checkout[./ <file_name>]
+
+=>type of staging
+  git add -A => Stage everything[ ideal sanerio]
+  git add .  => Stages new and modified, without delete [ deleted file add will not staged ]
+  git add -u => Stages deleted and modified, without new [ new file add will not staged ]
