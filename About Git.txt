@@ -11,5 +11,5 @@ origin => is a server where we can put our code for collabration
 After creating SSh key we save our local commited file into github
 git reomte add origin git@githup.com.aruliSharma/Git-Tutorial.git
 
-=>push => git push -u remote master            [ --set-upstream => It is upstream tracking referance ]
-=>pull => git pull remote master
+=>push => git push -u origin master            [ --set-upstream => It is upstream tracking referance ]
+=>pull => git pull origin master
