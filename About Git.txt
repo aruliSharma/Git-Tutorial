@@ -26,3 +26,8 @@ git reomte add origin git@githup.com.aruliSharma/Git-Tutorial.git
 
 =>to clone any file from any server we need those link in https or ssh
   =>git clone <link>
+
+=>to ignore any file <touch .gitignore>
+  First I will track this file then i delete its cache memory and put in git ignore
+  =>Pre tracked file to gitignore and delete its history
+    => git rm --cache <file_name>
