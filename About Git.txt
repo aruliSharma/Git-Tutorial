@@ -39,3 +39,7 @@ git reomte add origin git@githup.com.aruliSharma/Git-Tutorial.git
   =>git push origin branch_name
   =>to merge branch file to master 
     =>[switch to master <git checkout master>] > [git merge branch_name]
+
+=>delete created branch
+ =><local>git branch -D <branch_name>
+ =><remote>git push origin --delete login_system
