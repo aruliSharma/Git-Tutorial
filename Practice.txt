@@ -1,1 +1,0 @@
-First I will track this file then i delete its cache memory and put in git ignore
