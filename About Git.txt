@@ -6,7 +6,7 @@ git add [. / list file to state]      => git reset <file_name>
 git commit [staged file get saved to git repository] -m ""
 git log
 
-remote origin area creation [push / pull]
+remote origin creation [push / pull]
 origin => is a server where we can put our code for collabration
 After creating SSh key we save our local commited file into github
 git reomte add origin git@githup.com.aruliSharma/Git-Tutorial.git
