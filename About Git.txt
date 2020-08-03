@@ -31,3 +31,11 @@ git reomte add origin git@githup.com.aruliSharma/Git-Tutorial.git
   First I will track this file then i delete its cache memory and put in git ignore
   =>Pre tracked file to gitignore and delete its history
     => git rm --cache <file_name>
+
+=>new Branch == new origin
+=>checking branches present => git branch
+  =>creating branches => git branch <branch_name>
+  =>switching from master branch to created branch => git checkout <branch_name> 
+  =>git push origin branch_name
+  =>to merge branch file to master 
+    =>[switch to master <git checkout master>] > [git merge branch_name]
